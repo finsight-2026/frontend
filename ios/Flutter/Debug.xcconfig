@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FINSIGHT_IOS_ENTITLEMENTS = Runner/Runner.entitlements
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEBUG
+FINSIGHT_APNS_ENVIRONMENT = development
+#include? "Push.local.xcconfig"
